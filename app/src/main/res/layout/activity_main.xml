@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".File">
+
+    <Button
+        android:id="@+id/buat"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:onClick="buatfile"
+        android:layout_height="wrap_content"
+        android:text="Buat File"
+        />
+    <Button
+        android:id="@+id/baca"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Baca File"
+        />
+    <Button
+        android:id="@+id/ubah"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Ubah File"
+        />
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Hapus File"
+        />
+
+    <TextView
+        android:id="@+id/isifile"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:hint="Isi File anda"
+        android:layout_height="225dp" />
+</LinearLayout>
